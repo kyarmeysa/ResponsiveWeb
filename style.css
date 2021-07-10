@@ -52,3 +52,23 @@ header h1{
     background-color: #eaeaea;
     color: #333;
 }
+#section-a{
+    background-color: #eaeaea;
+    color: #333;
+    padding: 3.2rem;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+#section-b{
+    padding: 2rem;
+}
+ #section-b ul{
+    list-style: none;
+}
+#section-b li{
+    background-color: #fff;
+    color: #333;
+    margin-bottom: 1rem;
+}
