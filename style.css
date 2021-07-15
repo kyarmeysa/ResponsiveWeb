@@ -70,5 +70,17 @@ img{
 #section-b li{
     background-color: #fff;
     color: #333;
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
+}
+#section-c{
+    background-color: #eaeaea;
+    color: #333;
+    padding: 5rem;
+}
+#section-d .box:first-child{
+    background-color: #2690d4;
+
+}
+.box{
+    padding: 5rem;
 }
