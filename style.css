@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 html{
-    font-size: 10px;
+    font-size: 7px;
 }
 
 body{
@@ -20,6 +20,11 @@ a{
 }
 p{
     padding: 1.6rem;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
 }
 header{
     height: 45rem;
@@ -83,4 +88,37 @@ img{
 }
 .box{
     padding: 5rem;
+} footer{
+    padding: 4rem;
+    background-color: #000;
 }
+footer a {
+    background-color: #2690d4;
+}
+
+
+
+@media screen and (min-width:750px){
+    #section-b li{
+        width: 28%;
+        margin: 1%;
+        display: inline-block;
+    } .box{
+        width: 50%;
+        float: left;
+
+    }
+    html{
+        font-size: 9;
+    }
+}
+@media screen and (min-width:1200px){
+   
+
+    
+    html{
+        font-size: 12;
+    }
+}
+
+    
